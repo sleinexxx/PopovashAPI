@@ -7,20 +7,22 @@ import ru.popovash.api.language.PLanguage;
 import ru.popovash.api.utils.FileUtils;
 
 import java.io.File;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 public class PLanguageManager extends LanguageManager<PLanguage> {
     @Override
     protected void load() {
-        URI resourceFolder;
+        URL url = PopovashAPI.class.getClassLoader().getResource("languages/");
+
+        File languages;
         try {
-            resourceFolder = PopovashAPI.class.getClassLoader().getResource("languages/").toURI();
+            languages = new File(new URI(url.toString().replace(" ","%20")).getSchemeSpecificPart());
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
-
-        File languages = new File(resourceFolder);
 
         for (File languageFile : languages.listFiles()) {
             System.out.println(languageFile.getName());
