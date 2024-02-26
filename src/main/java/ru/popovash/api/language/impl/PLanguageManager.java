@@ -15,7 +15,7 @@ public class PLanguageManager extends LanguageManager<PLanguage> {
     protected void load() {
         URI resourceFolder;
         try {
-            resourceFolder = PLanguageManager.class.getClassLoader().getResource("/languages/").toURI();
+            resourceFolder = PopovashAPI.class.getClassLoader().getResource("languages/").toURI();
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
@@ -27,7 +27,7 @@ public class PLanguageManager extends LanguageManager<PLanguage> {
             File file = FileUtils.getFileWriter(PopovashAPI.buildUserPath("PopovashAPI", "languages", languageFile.getName())).createIfNotExists().writeToFile();
             PYamlLanguage language = new PYamlLanguage(file);
             if (!language.containsKey("VERSION")) {
-                YamlConfiguration.save(new PYamlLanguage(PLanguageManager.class.getClassLoader().getResourceAsStream("/languages/" + languageFile.getName())), file);
+                YamlConfiguration.save(new PYamlLanguage(PLanguageManager.class.getClassLoader().getResourceAsStream("languages/" + languageFile.getName())), file);
                 language = new PYamlLanguage(file);
             }
 

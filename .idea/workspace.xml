@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7b6380-f87f-4663-b53a-40cc1cf6dd53" name="Changes" comment="Language fix">
+    <list default="true" id="af7b6380-f87f-4663-b53a-40cc1cf6dd53" name="Changes" comment="Language fix2">
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.idea/misc.xml" afterDir="false" />
@@ -29,6 +29,7 @@
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/test/resources/test.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PLanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PLanguageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/stepa/IdeaProjects/PopovashAPI/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.16308594",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -92,7 +93,7 @@
       <recent name="ru.popovash.api.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PopovashAPI-Gui">
+  <component name="RunManager" selected="Application.PopovashAPI">
     <configuration name="PopovashAPI-Gui" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="--module-path=&quot;C:\Program Files\Java\javafx-sdk-11\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
@@ -127,7 +128,7 @@
       <workItem from="1708785634845" duration="638000" />
       <workItem from="1708961580393" duration="4850000" />
       <workItem from="1708966467258" duration="4473000" />
-      <workItem from="1708970965757" duration="172000" />
+      <workItem from="1708970965757" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="PopovashAPI 1.0">
       <option name="closed" value="true" />
@@ -161,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708970860583</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Language fix2">
+      <option name="closed" value="true" />
+      <created>1708971151852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708971151852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +192,8 @@
     <MESSAGE value="Added manager system" />
     <MESSAGE value="Manager fix" />
     <MESSAGE value="Language fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Language fix" />
+    <MESSAGE value="Language fix2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language fix2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
