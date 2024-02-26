@@ -16,6 +16,7 @@ public abstract class Manager<T extends Item> {
     public Manager() {
         items = new ConcurrentHashMap<>();
         load();
+        select = getDefaultItem();
     }
 
     protected abstract void load();
