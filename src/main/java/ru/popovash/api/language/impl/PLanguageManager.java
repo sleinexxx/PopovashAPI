@@ -12,7 +12,7 @@ import java.net.URISyntaxException;
 
 public class PLanguageManager extends LanguageManager<PLanguage> {
     @Override
-    protected void loadLanguages() {
+    protected void load() {
         URI resourceFolder;
         try {
             resourceFolder = PLanguageManager.class.getClassLoader().getResource("languages" + java.io.File.separator).toURI();
@@ -29,7 +29,7 @@ public class PLanguageManager extends LanguageManager<PLanguage> {
                 YamlConfiguration.save(new PYamlLanguage(PLanguageManager.class.getClassLoader().getResourceAsStream("languages" + java.io.File.separator + languageFile.getName())), file);
             }
 
-            loadLanguage(language);
+            loadItem(language);
         }
     }
 }

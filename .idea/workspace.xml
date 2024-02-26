@@ -4,41 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7b6380-f87f-4663-b53a-40cc1cf6dd53" name="Changes" comment="">
+    <list default="true" id="af7b6380-f87f-4663-b53a-40cc1cf6dd53" name="Changes" comment="PopovashAPI 1.0">
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/PopovashAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/configuration/AbstractConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/configuration/yaml/YamlConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/LanguageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/PLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/config/YamlLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PLanguageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PYamlLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/scheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/scheduler/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/scheduler/impl/PRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/scheduler/impl/PScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/scheduler/impl/PTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/utils/InetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/PAPIGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/javafx/components/NotificationPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/theme/PTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/theme/Theme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/theme/ThemeManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/java/ru/popovash/api/gui/theme/YamlTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/resources/theme/dark.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/main/resources/theme/light.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopovashAPI-Gui/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/managers/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/managers/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/LanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/LanguageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PLanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/popovash/api/language/impl/PLanguageManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PopovashAPI-Gui" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -72,11 +58,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/stepa/IdeaProjects/TrustEssentials",
+    "last_opened_file_path": "D:/LeanOnUpdate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/stepa/IdeaProjects/PopovashAPI/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,12 +87,38 @@
       <workItem from="1708452913193" duration="2087000" />
       <workItem from="1708693404654" duration="10485000" />
       <workItem from="1708768704468" duration="1512000" />
-      <workItem from="1708770830953" duration="6130000" />
+      <workItem from="1708770830953" duration="7523000" />
+      <workItem from="1708785634845" duration="638000" />
+      <workItem from="1708961580393" duration="2042000" />
     </task>
+    <task id="LOCAL-00001" summary="PopovashAPI 1.0">
+      <option name="closed" value="true" />
+      <created>1708784341065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784341065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PopovashAPI 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="PopovashAPI 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,9 @@
 package ru.popovash.api.language;
 
 import lombok.NonNull;
+import ru.popovash.api.managers.Item;
 
-public interface Language {
-    @NonNull String getName();
-
+public interface Language extends Item {
     @NonNull String getLocalizedName();
 
     double getVersion();
